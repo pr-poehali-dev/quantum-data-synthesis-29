@@ -5,10 +5,10 @@ interface RaiLogoProps {
 }
 
 const sizeMap = {
-  sm: "h-12 md:h-14",
-  md: "h-20 md:h-24",
-  lg: "h-32 md:h-40 lg:h-48",
-  xl: "h-48 md:h-64 lg:h-80",
+  sm: "h-24 md:h-28",
+  md: "h-40 md:h-48",
+  lg: "h-64 md:h-80 lg:h-96",
+  xl: "h-96 md:h-[32rem] lg:h-[40rem]",
 };
 
 const LOGO_URL =
