@@ -12,7 +12,7 @@ const sizeMap = {
 };
 
 const LOGO_URL =
-  "https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/bucket/68813923-62f1-45d6-8948-deec2edf75a4.png";
+  "https://cdn.poehali.dev/projects/55cad316-9392-453f-927d-0b8cefce0524/bucket/beb06a55-57a6-4657-965f-195db0d8096d.png";
 
 export default function RaiLogo({ size = "md", className = "", inverted = false }: RaiLogoProps) {
   if (!inverted) {
