@@ -19,8 +19,15 @@ export default function RaiLogo({ size = "md", className = "", inverted = false 
     <img
       src={LOGO_URL}
       alt="#ПРОЕКТ RAi — Республика Автоматики Интегра"
-      className={`${sizeMap[size]} w-auto object-contain select-none ${inverted ? "brightness-0 invert-0" : ""} ${className}`}
-      style={inverted ? { filter: "drop-shadow(0 0 20px rgba(0, 255, 60, 0.2))" } : undefined}
+      className={`${sizeMap[size]} w-auto object-contain select-none ${className}`}
+      style={
+        inverted
+          ? {
+              filter:
+                "brightness(0) invert(1) drop-shadow(0 0 20px rgba(0, 255, 60, 0.2))",
+            }
+          : undefined
+      }
       draggable={false}
     />
   );

@@ -70,16 +70,22 @@ export default function Footer() {
                   Связаться
                 </h3>
                 <a
-                  href="mailto:info@rai-project.ru"
+                  href="mailto:sitalov-leonid@mail.ru"
                   className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
-                  info@rai-project.ru
+                  sitalov-leonid@mail.ru
                 </a>
                 <a
-                  href="tel:+70000000000"
+                  href="tel:+79286058533"
                   className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
                 >
-                  +7 (000) 000-00-00
+                  +7 (928) 605-85-33 (MAX)
+                </a>
+                <a
+                  href="tel:+79786413082"
+                  className="text-white hover:text-[#00ff3c] transition-colors duration-300 text-sm sm:text-base"
+                >
+                  +7 (978) 641-30-82 (Telegram)
                 </a>
                 <p className="text-neutral-400 text-sm sm:text-base max-w-[240px]">
                   Инжиниринг автоматизации для промышленности
